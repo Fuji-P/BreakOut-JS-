@@ -66,10 +66,10 @@ function Block(x, y, i) {
 
 //Paddleオブジェクト
 function Paddle() {
-	this.x = (WIDTH - this.w) / 2;
-	this.y = HEIGHT - 20;
 	this.w = 110;
 	this.h = 20;
+	this.x = (WIDTH - this.w) / 2;
+	this.y = HEIGHT - 20;
 	this.color = 'yellow';
 	this.keyL = false;
 	this.keyR = false;
